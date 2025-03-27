@@ -1,0 +1,45 @@
+
+.form-background {
+    width: 600px; /* make form background 600px wide */
+    margin-top: 100px; /* leave 100px margin on top */
+    text-align: center; /* align form in center */
+    display:flex; /* display flex mode */
+    flex-direction: column; /* set flex direction to column */
+    padding: 100px; /* set padding around form to 100px */
+}
+
+.expense-input {
+    padding: 4px; /* set padding 4px */
+    font-size: 13px; /* set font size to 13px */
+    margin-bottom: 0px; /* leave no margin at bottom of expense-input */
+}
+
+.expense-submit-button {
+    margin-top: 20px; /* leave margin 20px on top */
+    background-color: rgb(59, 56, 56); /* set background color */
+    color: white; /* set text color white */
+    font-weight: bold; /* make text bold */
+    padding-top: 10px; /* leave 10px padding on top */
+    padding-bottom: 10px; /* padding bottom 10px */
+    padding-inline: 20px; /* padding inline 20px */
+    width: 60%; /* make width 60% */
+    margin-left: 20%; /* set margin left 20% */
+    text-align: center; /* make expense button center */
+    border-radius: 0.5rem; /* add border radius of 0.5rem */
+}
+
+.label {
+    color: white; /* set color white */
+}
+
+.title {
+    font-size: 50px; /* set font size 50px */
+    font-weight: bold; /* set font weight bold */
+    display: flex; /* set display flex */
+    justify-content: center; /* justify content to center */
+}
+
+#submit-container {
+    width: 100%; /* set width 100% */
+    text-align: center; /* align text in center */
+}

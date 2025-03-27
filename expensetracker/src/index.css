@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SUSE", sans-serif;
+}
+
+/* Main background color for web page */
+body {
+background: rgb(221, 226, 226);
+background: linear-gradient(90deg, rgb(215, 223, 223) 0%, rgb(239, 245, 243) 50%, rgb(236, 236, 238) 100%);
+min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}

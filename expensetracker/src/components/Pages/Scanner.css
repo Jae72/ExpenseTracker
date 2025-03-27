@@ -1,0 +1,251 @@
+img,
+video,
+button {
+  display: block; /* Displays the webcam as a block */
+}
+
+/* Styling for the hyperlink */
+.link{
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    margin-left: -10%;
+    padding-bottom: 1%;
+}
+
+/* Styling for letters next to the hyperlink */
+p{
+    display: flex;
+    font-size: large;
+    margin-left: 10%;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Ensures the main div which holds the webcam is centered and fits the page */
+.scan div{
+    padding-top: 0%;
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1.71%;
+    margin-bottom: auto;
+}
+
+/* Styling for the 'Capture' button */
+.capture-bttn{
+    position: flex;
+    top: 70%;
+    margin-top: 20px;
+    background-color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 10px;
+    width: 40%;
+    margin-left:29%;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin-bottom: 130%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Styling for the 'Upload' button for file uploads */
+.input-bttn{
+    position: center;
+    top: 70%;
+    margin-top: 20px;
+    background-color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 18px;
+    padding-left: 20px;
+    width: 50%;
+    margin-left: 5%;
+    text-align: fixed;
+    border-radius: 0.5rem;
+    margin-bottom: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Styling for the input file type */
+.file{
+    text-decoration: none;
+    position: center;
+    margin-left: 7%;
+    padding-left: 10px;
+    padding-top: 4%;
+    align-items: center;
+    border: 5px dotted #00e08a;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-size: 20px;
+    margin-top: 30%;
+}
+
+/* Styling for the input file type */
+.file::-webkit-file-upload-button{
+    background: linear-gradient(#00e08a, #000);
+    color: aliceblue;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Webcam size to fit a receipt vertically */
+.cam{
+    align-items: flex;
+    margin-top: 5%;
+    width: 550px;
+    height: 780px;
+    object-fit: cover;
+
+}
+
+/* Margin for main container */
+.container{
+    margin-top: 20%;
+}
+
+/* Centering the upload button */
+.input-bttn{
+    justify-content: flex;
+    align-items: center;
+    max-width: fit-content;
+    margin-left: 35%;
+}
+
+/* Styling for file uploader */
+.fileUploader{
+    padding-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    margin-bottom: auto;
+    flex-direction: column;
+}
+
+img {
+    width: 25%;
+    margin: 25%;
+}
+
+/* Container for the whole table */
+.scan-table {
+    width: 100%;
+    padding: 2px;
+    border-collapse: collapse;
+    margin-top: 20px; /* Reduced to prevent excessive spacing */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+/* Table headers */
+.scan-table thead th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center; 
+    padding: 15px 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Table rows */
+.expense-info {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Table rows */
+.scan-row {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Hover effect for table rows */
+.scan-table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Cell padding for better readability */
+.scan-table tbody td {
+    padding: 12px 8px;
+    text-align: center;
+}
+
+/* Container for the whole table */
+.general-table {
+    width: 100%;
+    padding: 20px;
+    border-collapse: collapse;
+    margin-top: -500px; /* Reduced to prevent excessive spacing */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Table headers */
+.general-table thead th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center; 
+    padding: 15px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+}
+
+/* Table rows */
+.gen-info {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Table rows */
+.general-row {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Hover effect for table rows */
+.general-table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Cell padding for better readability */
+.general-table tbody td {
+    padding: 12px 8px;
+    text-align: center;
+}

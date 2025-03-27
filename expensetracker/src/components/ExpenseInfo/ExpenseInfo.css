@@ -1,0 +1,58 @@
+/* Container styling for the ExpenseInfo section */
+.expense-info {
+    margin-top: 110px; /* margin top 110px */
+    margin-bottom: 20px; /* margin bottom 20px */
+    font-size: large; /* make font large */
+    font-weight: bold; /* make font bold */
+    margin-left: 20px; /* set margin left to 20px */
+    display: flex; /* display flex mode */
+    justify-content: space-between; /* leave space between */
+    margin-inline-end: 20px; /* leave 20px margin at end */
+}
+
+/* Styling for the total expense display */
+.expense-info .info {
+    font-size: 1.2rem; /* make font size 1.2rem */
+    font-weight: bold; /* make font bold */
+    color: #333; /* set color for expense info */
+}
+
+/* Styling for filter dropdowns */
+.expense-info .filters select {
+    padding: 8px; /* set padding to 8px */
+    font-size: 1rem; /* set font size to 1 rem */
+    border-radius: 5px; /* set border radius 5px */
+    border: 1px solid #ddd; /* border 1px solid */
+    margin-right: 10px; /* set margin 10px on right */
+    background-color: #fff; /* set background color */
+    color: #333; /* set text color */
+}
+
+/* Reset button styling */
+.expense-info .reset-button {
+    padding: 8px 16px; /* set padding 8px and 16px */
+    background-color: #3d3b3b; /* set background color */
+    color: white; /* set color white */
+    border: none; /* delete border */
+    border-radius: 5px; /* set border radius 5px */
+    font-size: 1rem; /* set font size 1rem */
+    cursor: pointer; /* set cursor to pointer mode */
+    margin-left: 10px; /* leave 10px margin on left */
+}
+
+/* Ensure dropdowns and button align neatly */
+.expense-info .filters {
+    display: flex; /* display flex mode */
+    align-items: center; /* move items to center */
+}
+
+/* chart container style */
+.chart-container {
+    display: flex; /* display flex mode */
+    justify-content: center; /* move content to center */
+    margin-top: 140px; /* leave 140px margin on top */
+    margin-bottom: 50px; /* leave 50px margin on bottom */
+    width: 84%; /* width 84% */
+    margin-left: 8%; /* margin left 8% */
+}
+

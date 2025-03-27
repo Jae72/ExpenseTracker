@@ -1,0 +1,107 @@
+/* Styling for the actual nav bar background */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgb(59, 56, 56);
+    opacity: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+/* Styling for ExpenseTracker logo on nav bar */
+.logo {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+/* Styling for the fonts on nav bar */
+.navbar a {
+    position: relative;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+    margin-left: 40px;
+}
+
+/* Underline animation under each link on nav bar */
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: rgb(112, 111, 111);
+    transition: .3s;
+}
+
+/* Underline animation under each link on nav bar */
+.navbar a:hover::before {
+    width: 0%;
+}
+
+/* Hamburger menu styling */
+nav .menu{
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: .5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+
+/* Hamburger menu styling */
+nav .menu span{
+    height: 0.4rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 0.2rem;
+}
+
+/* @media set the max-width to 480px which enables the hamburger menu */
+@media (max-width: 480px){
+    .navbar .menu{
+        display: flex;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+
+    nav ul.open{
+        display: flex;
+    }
+    nav ul li{
+        width: 100%;
+        text-align: center;
+   
+    }
+
+    nav ul li a{
+        margin: 0.2rem 0.5rem;
+    }
+}
+
+/* Styling for the active link */
+.navbar a.active {
+    color: rgb(85, 233, 134);
+    font-weight: 700;
+    font-style:inherit ;
+}

@@ -1,0 +1,70 @@
+.box form{
+    align-items: center;
+}
+
+/* Styling for label text */
+.label {
+    align-items: center;
+}
+
+/* Styling for the sign up form */
+.form {
+    align-items: center;
+    text-align: center;
+}
+
+/* Password checkboxes start here */
+.password-requirements {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.requirement {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    color: #000000;
+    font-size: 14px;
+}
+
+.requirement.met {
+    color: green;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.requirement.met .checkbox {
+    background-color: green;
+    border-color: green;
+}
+
+.requirement.met .checkbox::after {
+    content: '✓';
+    color: white;
+    position: absolute;
+    left: 3px;
+    top: -1px;
+    font-size: 12px;
+    animation: checkmark 0.3s ease forwards;
+}
+
+@keyframes checkmark {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+/* Password requirements end here */

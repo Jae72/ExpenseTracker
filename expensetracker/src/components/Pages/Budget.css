@@ -1,0 +1,11 @@
+/* this is expense container class */ 
+.expense-container {
+    display: flex; /* display flex mode */
+    margin-left: 30px; /* making 30 px margin on left */
+    padding-top: 2%; /* add 2% padding on top */
+}
+
+/* expense table and info class */
+.expense-table-and-info {
+    width: 100%; /* show width 100% of expense table */
+}

@@ -1,0 +1,5 @@
+/* Expense container */
+.expense-container {
+    display: flex; /* display flex */
+    margin-left: 30px; /* show margin 30px on left */
+}

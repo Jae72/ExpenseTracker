@@ -1,0 +1,95 @@
+.form-background {
+    margin-left: auto;
+    margin-right: auto;  /* Center the form horizontally */
+    width: 400px;        /* Increase width for more space */
+    margin-top: 100px;
+    padding: 40px;       /* Adjust padding */
+    background-color: rgb(164, 173, 175); /* Add a semi-transparent background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;           /* Add spacing between form fields */
+}
+
+.label {
+    font-size: 18px;     /* Increase font size */
+    font-weight: 600;    /* Make text slightly bold */
+    color: white;
+    text-align: left;    /* Align labels to the left */
+}
+
+input {
+    padding: 12px;       /* Add padding inside input fields */
+    font-size: 16px;     /* Increase input font size */
+    border-radius: 5px;  /* Rounded input fields */
+    border: 1px solid #ccc; /* Subtle border */
+    margin-bottom: 20px; /* Space between inputs */
+}
+
+.submit-button {
+    margin-left: 115px;
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 18px;      /* Larger button text */
+    background-color: #114a76; /* Green background */
+    color: white;         /* White text */
+    border: none;         /* Remove border */
+    border-radius: 5px;   /* Rounded button */
+    cursor: pointer;      /* Pointer cursor on hover */
+}
+
+.submit-button:hover {
+    background-color: #0e2c53; /* Darker green on hover */
+}
+
+.form-background h1 {
+    font-size: 28px;      /* Increase heading size */
+    margin-bottom: 30px;  /* Add space below heading */
+}
+
+.switch-to-login-button {
+    margin-left: 125px;
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 18px;      /* Larger button text */
+    background-color: #32fadf; /* Green background */
+    color: white;         /* White text */
+    border: none;         /* Remove border */
+    border-radius: 5px;   /* Rounded button */
+    cursor: pointer;      /* Pointer cursor on hover */
+}
+
+.switch-to-signup-button {
+    margin-left: 115px;
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 18px;      /* Larger button text */
+    background-color: #26fad7; /* Green background */
+    color: white;         /* White text */
+    border: none;         /* Remove border */
+    border-radius: 5px;   /* Rounded button */
+    cursor: pointer;      /* Pointer cursor on hover */
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container input {
+    padding-right: 30px; /* Space for the eye icon */
+}
+
+.toggle-password-visibility {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.toggle-password-visibility i {
+    font-size: 1.2em; /* Adjust the size as needed */
+}

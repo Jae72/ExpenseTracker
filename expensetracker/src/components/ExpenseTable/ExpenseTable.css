@@ -1,0 +1,143 @@
+/* Container for the whole table */
+.expense-table {
+    width: 100%;
+    padding: 20px;
+    border-collapse: collapse;
+    margin-top: 20px; /* Reduced to prevent excessive spacing */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Table headers */
+.expense-table thead th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center; 
+    padding: 15px 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Table rows */
+.expense-row {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Hover effect for table rows */
+.expense-table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Cell padding for better readability */
+.expense-table tbody td {
+    padding: 12px 8px;
+    text-align: center;
+}
+
+/* Link button styles */
+.link-button {
+    background: none;
+    border: none;
+    color: #007BFF;
+    cursor: pointer;
+    font: inherit;
+    text-decoration: underline;
+    font-weight: 500;
+    margin-left: 5px;
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 0; /* Remove padding */
+    font: inherit; /* Inherit font styles from parent */
+    margin-left: 10px;
+}
+
+/* Hover effect for buttons */
+.link-button:hover {
+    color: #0056b3;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+/* Flex container for action buttons */
+.expense-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Make buttons in action section stand out */
+.expense-actions button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* hover on expense-action button, change color */
+.expense-actions button:hover {
+    background-color: #45a049;
+    transition: background-color 0.3s ease;
+}
+
+/* highlight recent expense */
+.recent-expense {
+    background-color: darkgreen;
+    color: white;
+}
+
+/* hover on recent expense, change color to black */
+.recent-expense:hover {
+    color: black;
+}
+
+/* modal class for receipt details */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* modal-content class */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+}
+
+/* close button class */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* class for hover on close */
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

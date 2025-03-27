@@ -1,0 +1,33 @@
+.prediction-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  min-height: 100vh; /* Full height of the viewport */
+}
+
+.prediction-table {
+  border-collapse: collapse;
+  margin-top: 20px; /* Space above the table */
+  width: 80%; /* Adjust width as necessary */
+  max-width: 600px; /* Maximum width of the table */
+}
+
+.prediction-table th, .prediction-table td {
+  border: 1px solid #ccc; /* Table borders */
+  padding: 10px; /* Space within cells */
+  text-align: left; /* Align text to the left */
+}
+
+.prediction-table th {
+  background-color: #f4f4f4; /* Header background color */
+}
+
+.prediction-table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Zebra striping for rows */
+}
+
+.headerChart{
+  text-align: center;
+  padding-top: 8%;
+}
